@@ -28,3 +28,12 @@ function replaceString(str,target,replacement){
     console.log("Replaced string : ",str.replace(target,replacement));
 }
 replaceString(Name,"Maini","Mishra");
+//split on the bases of delimiter
+const value="hi.my.name.is.prashant";
+const words=value.split(".");
+console.log(words);
+//trim
+const tri="      prashant maini     ";
+console.log(tri.trim());
+//to upper
+console.log(value.toUpperCase());
